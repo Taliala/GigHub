@@ -119,3 +119,6 @@ C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.dll
 C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.pdb
 C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.InitialModel.resources
 C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.csproj.GenerateResource.Cache
+C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGigTable.resources
+C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConvertionsForGigsAndGenres.resources
+C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConvertionsForGigs.resources
