@@ -216,6 +216,22 @@
     <Compile Include="Migrations\201710152156011_PopulateGenresTable.Designer.cs">
       <DependentUpon>201710152156011_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710160015066_AddForengKeyPropertiesToGig.cs" />
+    <Compile Include="Migrations\201710160015066_AddForengKeyPropertiesToGig.Designer.cs">
+      <DependentUpon>201710160015066_AddForengKeyPropertiesToGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710160027198_RemoveRequiredOnArtistAndGenre.cs" />
+    <Compile Include="Migrations\201710160027198_RemoveRequiredOnArtistAndGenre.Designer.cs">
+      <DependentUpon>201710160027198_RemoveRequiredOnArtistAndGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710160029080_RemoveRequiredOnArtistAndGenre1.cs" />
+    <Compile Include="Migrations\201710160029080_RemoveRequiredOnArtistAndGenre1.Designer.cs">
+      <DependentUpon>201710160029080_RemoveRequiredOnArtistAndGenre1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710160032360_FixBugs.cs" />
+    <Compile Include="Migrations\201710160032360_FixBugs.Designer.cs">
+      <DependentUpon>201710160032360_FixBugs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -317,6 +333,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710152156011_PopulateGenresTable.resx">
       <DependentUpon>201710152156011_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710160015066_AddForengKeyPropertiesToGig.resx">
+      <DependentUpon>201710160015066_AddForengKeyPropertiesToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710160027198_RemoveRequiredOnArtistAndGenre.resx">
+      <DependentUpon>201710160027198_RemoveRequiredOnArtistAndGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710160029080_RemoveRequiredOnArtistAndGenre1.resx">
+      <DependentUpon>201710160029080_RemoveRequiredOnArtistAndGenre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710160032360_FixBugs.resx">
+      <DependentUpon>201710160032360_FixBugs.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

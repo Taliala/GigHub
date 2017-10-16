@@ -123,3 +123,7 @@ C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.CreateGi
 C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConvertionsForGigsAndGenres.resources
 C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.OverrideConvertionsForGigs.resources
 C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.PopulateGenresTable.resources
+C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddForengKeyPropertiesToGig.resources
+C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.RemoveRequiredOnArtistAndGenre.resources
+C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.RemoveRequiredOnArtistAndGenre1.resources
+C:\Users\Natasha\source\repos\GigHub\GigHub\obj\Debug\GigHub.Migrations.FixBugs.resources
