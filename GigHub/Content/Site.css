@@ -98,15 +98,21 @@ h6,
 }
 
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     -ms-border-radious: 9px;
     border-radius: 9px;
 }
+
+.btn-sm, .btn-xs {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
 /*Page-levels styles*/
 
 .gigs {
-    list-style: none;
+list-style: none;
 }
 
 .gigs > li{
