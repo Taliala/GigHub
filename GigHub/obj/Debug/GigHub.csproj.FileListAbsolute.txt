@@ -401,3 +401,4 @@ C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.csproj.Gene
 C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.csproj.CoreCompileInputs.cache
 C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.dll
 C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.pdb
+C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.Migrations.Addingfollowerslogic.resources

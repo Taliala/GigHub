@@ -200,6 +200,8 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Dtos\FollowerDto.cs" />
+    <Compile Include="Controllers\FollowersController.cs" />
     <Compile Include="Dtos\AttendanceDto.cs" />
     <Compile Include="Controllers\AttendancesController.cs" />
     <Compile Include="Controllers\GigsController.cs" />
@@ -252,8 +254,13 @@
     <Compile Include="Migrations\201710180215251_AddAttendanceDBs.Designer.cs">
       <DependentUpon>201710180215251_AddAttendanceDBs.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710200511579_Adding followers logic.cs" />
+    <Compile Include="Migrations\201710200511579_Adding followers logic.Designer.cs">
+      <DependentUpon>201710200511579_Adding followers logic.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Attendance.cs" />
+    <Compile Include="Models\Follow.cs" />
     <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="ViewModels\AddPhoneNumberViewModel.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -389,6 +396,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710180215251_AddAttendanceDBs.resx">
       <DependentUpon>201710180215251_AddAttendanceDBs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710200511579_Adding followers logic.resx">
+      <DependentUpon>201710200511579_Adding followers logic.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
