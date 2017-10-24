@@ -201,7 +201,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Dtos\FollowerDto.cs" />
-    <Compile Include="Controllers\FollowersController.cs" />
+    <Compile Include="Controllers\FollowingsController.cs" />
     <Compile Include="Dtos\AttendanceDto.cs" />
     <Compile Include="Controllers\AttendancesController.cs" />
     <Compile Include="Controllers\GigsController.cs" />
@@ -258,9 +258,13 @@
     <Compile Include="Migrations\201710200511579_Adding followers logic.Designer.cs">
       <DependentUpon>201710200511579_Adding followers logic.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710240444559_Adding Cascading Delete for Atrist and Follower.cs" />
+    <Compile Include="Migrations\201710240444559_Adding Cascading Delete for Atrist and Follower.Designer.cs">
+      <DependentUpon>201710240444559_Adding Cascading Delete for Atrist and Follower.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Attendance.cs" />
-    <Compile Include="Models\Follow.cs" />
+    <Compile Include="Models\Following.cs" />
     <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="ViewModels\AddPhoneNumberViewModel.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -399,6 +403,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710200511579_Adding followers logic.resx">
       <DependentUpon>201710200511579_Adding followers logic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710240444559_Adding Cascading Delete for Atrist and Follower.resx">
+      <DependentUpon>201710240444559_Adding Cascading Delete for Atrist and Follower.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
