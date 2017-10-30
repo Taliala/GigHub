@@ -183,3 +183,11 @@ list-style: none;
     font-size: 15px;
     color: #333333;
 }
+.gigs > li .actions {
+    font-size: 15px;
+    display: none;
+}
+
+.gigs > li:hover .actions {
+    display: block;
+}
