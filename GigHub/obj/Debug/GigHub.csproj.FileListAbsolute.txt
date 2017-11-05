@@ -405,3 +405,4 @@ C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.Migrations.
 C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddingCascadingDeleteforAtristandFollower.resources
 C:\Users\Natalia Brown\Documents\Visual Studio 2017\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.Addingfollowerslogic.resources
 C:\Users\Natalia Brown\Documents\Visual Studio 2017\Projects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddingCascadingDeleteforAtristandFollower.resources
+C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.Migrations.AddIsCanceledToGig.resources
