@@ -41,7 +41,21 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-    <script type="text/x-template" id="notifications-template">"Hello <%= name %>"</script>
+    <script type="text/x-template" id="notifications-template">
+        <ul>
+            <%
+                _.each(notifications, function(notification){
+                    if(notifications.type == 1) { %>
+                    <li><%= notification.gig.artist.name %> has cancelled the gig at <%= notification.gig.venue %> at <%= notification.gig.date %>. </li>
+                    <%}
+                    
+                    if(notifications.type == 2) { %>
+                    <li><%= notification.gig.artist.name %> has updated the gig at <%= notification.gig.venue %> at <%= notification.gig.date %>. </li>
+                    <%}
+                 })
+            %>
+        </ul>
+    </script>
     <script>
         $(document).ready(function () {
             $.getJSON("/api/nitifications", function (notifications) {
@@ -49,18 +63,17 @@
                     .text(notifications.length)
                     .removeClass("hide")
                     .addClass("animated bounceInDown");
+            
+                $(".notifications").popover({
+                    html: true,
+                    title: "Notifications",
+                    content: function () {
+                        var compiled = _.template($("#notifications-template").html());
+                        return compiled({ notifications: notifications });
+                    },
+                    placement: "bottom"
+                });
             });
-            $(".notifications").popover({
-                html: true,
-                title: "Notifications",
-                content: function () {
-                    var compiled = _.template($("#notifications - template").html());
-                    var html = compiled({ name: "" });
-
-                    return html;
-                },
-                placement: "bottom"
-            })
         });
         </script >
 </body>
