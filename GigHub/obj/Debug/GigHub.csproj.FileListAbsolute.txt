@@ -552,3 +552,4 @@ C:\Users\natalia.brown\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.dll
 C:\Users\natalia.brown\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.pdb
 C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\bin\AutoMapper.dll
 C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\bin\AutoMapper.xml
+C:\Users\Natasha\Documents\MyProjects\GigHub\GigHub\obj\Debug\GigHub.Migrations.Bugfixes.resources

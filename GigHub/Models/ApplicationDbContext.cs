@@ -1,5 +1,5 @@
-﻿using System.Data.Entity;
-using Microsoft.AspNet.Identity.EntityFramework;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 
 namespace GigHub.Models
 {
@@ -21,6 +21,7 @@ namespace GigHub.Models
         {
             return new ApplicationDbContext();
         }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Attendance>()
@@ -30,11 +31,11 @@ namespace GigHub.Models
 
             modelBuilder.Entity<ApplicationUser>()
                 .HasMany(u => u.Followers)
-                .WithRequired(a => a.Artist)
+                .WithRequired(f => f.Followee)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<ApplicationUser>()
-                .HasMany(a => a.Artists)
+                .HasMany(u => u.Followees)
                 .WithRequired(f => f.Follower)
                 .WillCascadeOnDelete(false);
 

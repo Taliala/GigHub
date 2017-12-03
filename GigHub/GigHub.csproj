@@ -209,7 +209,7 @@
     <Compile Include="Dtos\GigDto.cs" />
     <Compile Include="Dtos\NotificationDto.cs" />
     <Compile Include="Controllers\Api\NotificationsController.cs" />
-    <Compile Include="Controllers\ArtistsController.cs" />
+    <Compile Include="Controllers\FolloweesController.cs" />
     <Compile Include="Dtos\UserDto.cs" />
     <Compile Include="Migrations\201711050140106_AddIsCanceledToGig.cs" />
     <Compile Include="Migrations\201711050140106_AddIsCanceledToGig.Designer.cs">
@@ -219,12 +219,16 @@
     <Compile Include="Migrations\201711052337310_AddNotification.Designer.cs">
       <DependentUpon>201711052337310_AddNotification.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712030352501_Bug fixes.cs" />
+    <Compile Include="Migrations\201712030352501_Bug fixes.Designer.cs">
+      <DependentUpon>201712030352501_Bug fixes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Notification.cs" />
     <Compile Include="Models\NotificationType.cs" />
     <Compile Include="Models\UserNotification.cs" />
     <Compile Include="ViewModels\AtristsViewModel.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
-    <Compile Include="Dtos\FollowerDto.cs" />
+    <Compile Include="Dtos\FollowingDto.cs" />
     <Compile Include="Controllers\Api\FollowingsController.cs" />
     <Compile Include="Dtos\AttendanceDto.cs" />
     <Compile Include="Controllers\Api\AttendancesController.cs" />
@@ -374,7 +378,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Gigs\GigForm.cshtml" />
-    <Content Include="Views\Artists\Artists.cshtml" />
+    <Content Include="Views\Followees\Index.cshtml" />
     <Content Include="Views\Gigs\Mine.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -438,6 +442,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711052337310_AddNotification.resx">
       <DependentUpon>201711052337310_AddNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712030352501_Bug fixes.resx">
+      <DependentUpon>201712030352501_Bug fixes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

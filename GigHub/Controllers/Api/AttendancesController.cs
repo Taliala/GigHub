@@ -21,9 +21,8 @@ namespace GigHub.Controllers.Api
         {
             var userId = User.Identity.GetUserId();
 
-            if (_context.Attendances.
-                Any(a => a.AttendeeId == userId && a.GigId == dto.GigId))
-                return BadRequest("The attendance already exists");
+            if (_context.Attendances.Any(a => a.AttendeeId == userId && a.GigId == dto.GigId))
+                return BadRequest("The attendance already exists.");
 
             var attendance = new Attendance
             {
@@ -34,7 +33,23 @@ namespace GigHub.Controllers.Api
             _context.SaveChanges();
 
             return Ok();
-            
+        }
+
+        [HttpDelete]
+        public IHttpActionResult DeleteAttendance(int id)
+        {
+            var userId = User.Identity.GetUserId();
+
+            var attendance = _context.Attendances
+                .SingleOrDefault(a => a.AttendeeId == userId && a.GigId == id);
+
+            if (attendance == null)
+                return NotFound();
+
+            _context.Attendances.Remove(attendance);
+            _context.SaveChanges();
+
+            return Ok(id);
         }
     }
 }
