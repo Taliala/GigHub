@@ -205,6 +205,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Api\GigsController.cs" />
+    <Compile Include="Repositories\FollowingRepository.cs" />
+    <Compile Include="Repositories\AttendanceRepository.cs" />
+    <Compile Include="Repositories\GenreRepository.cs" />
+    <Compile Include="Repositories\GigRepository.cs" />
     <Compile Include="ViewModels\GigDetailsViewModel.cs" />
     <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\GigDto.cs" />
